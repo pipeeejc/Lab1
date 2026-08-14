@@ -2,3 +2,13 @@ Fri Aug 14 02:53:55 AM UTC 2026:
  tests:  0|5
 total_score: 0/70
 7da6cd8
+Fri Aug 14 02:57:14 AM UTC 2026: 
+ exercises.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:49:17: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   49 |          numero = i;
+      |                 ^
+8723d22
