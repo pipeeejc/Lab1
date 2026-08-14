@@ -30,3 +30,19 @@ Fri Aug 14 03:28:17 AM UTC 2026:
  tests:  3|2
 total_score: 40/70
 b6deded
+Fri Aug 14 03:58:23 AM UTC 2026: 
+ exercises.c | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:103:24: error: expected ‘,’ or ‘;’ before ‘:’ token
+  103 |    void* dato = pop(P1):
+      |                        ^
+exercises.c:111:10: error: redefinition of ‘dato’
+  111 |    void* dato = pop(aux);
+      |          ^~~~
+exercises.c:103:10: note: previous definition of ‘dato’ with type ‘void *’
+  103 |    void* dato = pop(P1):
+      |          ^~~~
+9f16833
