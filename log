@@ -59,3 +59,9 @@ exercises.c:103:10: note: previous definition of ‘dato’ with type ‘void *�
   103 |    void* dato = pop(P1);
       |          ^~~~
 d668adf
+Fri Aug 14 04:00:20 AM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|1
+total_score: 50/70
+e1d8564
